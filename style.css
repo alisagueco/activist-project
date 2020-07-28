@@ -91,11 +91,27 @@ li.nav a {
 }
 
 /* TODO (optional): Change the background color and/or font color when the mouse hovers over an item */
+.heading-home a {
+  /* Styling for the <a> elements in <li class="nav"> */
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
 
 li.nav a:hover {
   /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
   background-color: #0D38D3;
   color: #43d6b9ff;
+}
+
+.heading-home a:hover {
+  /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
+  background-color: #0D38D3;
+  color:#43d6b9ff;
 }
 
 /************************************************/
@@ -132,6 +148,7 @@ li.nav a:hover {
   letter-spacing: 10px;
   line-height: 60px;
   text-align: center;
+  
 
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
   /*border-style: dotted;*/
