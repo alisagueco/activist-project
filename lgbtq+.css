@@ -111,28 +111,32 @@ li.nav a:hover {
 .heading-home a:hover {
   /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
   background-color: #0D38D3;
-  color:#43d6b9ff;
+  color: #43d6b9ff;
+}
+/* styling of clickable individual LGBTQ+ letter buttons */
+
+.buttoncontainer a:hover {
+  background-color: #0D38D3;
+  color: #43d6b9ff;
 }
 
-#L a:hover {
-  color: red;
-  
-}
 .button {
   align-self: baseline;
-   background-color: #1c87c9;
-        border: none;
-        color: white;
-        padding: 20px 34px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 20px;
-        margin: 4px 2px;
-        cursor: pointer;
-  
+  background-color: #1c87c9;
+  border: none;
+  color: white;
+  padding: 20px 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
-
+.buttoncontainer {
+  align-self: baseline;
+  flex-direction: row;
+}
 
 /************************************************/
 /*********** CSS FOR FLEXBOX HEADING ************/
@@ -168,8 +172,6 @@ li.nav a:hover {
   line-height: 60px;
   text-align: center;
 
-  
-
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
   /*border-style: dotted;*/
 }
@@ -198,22 +200,23 @@ li.nav a:hover {
 /* TODO (optional): Change the background color and/or text alignment */
 
 .text-section {
-  background-color: #0D38D3;
+  background-color: #D38D3;
   padding: 20px 45px;
   margin: 35px;
   text-align: center;
-  
 }
-
-
-
 
 /*---------IMAGE STYLING + PARALLAX PROPERTY---------*/
 
 /* TODO: Add the CSS selector for each image to the collective image rule set */
 
 .main-message,
-.image-one, .image-two, .image-3, .image-4, .image-5, .image-6 {
+.image-one,
+.image-two,
+.image-3,
+.image-4,
+.image-5,
+.image-6 {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -255,9 +258,6 @@ li.nav a:hover {
   background-image: url("https://cdn.glitch.com/275f5c97-cf82-4414-99de-1010f1563e8d%2FGay_pride_Istanbul_at_Taksim_Square%5B1%5D.jpg?v=1595948806206");
 }
 
-
-
-
 /*-----------IMAGE ATTRIBUTIONS (if required)-----------*/
 .attributions {
   font-size: 12px;
@@ -270,7 +270,6 @@ li.nav a:hover {
 /******************************************************/
 
 /* TODO: Add a breakpoint if the screen is 700px or less */
-
 
 /* TODO: Add additional breakpoints based on your website's design
 
@@ -333,6 +332,3 @@ li.nav a:hover {
 /*
 
 .dropdown:hover .dropbtn {background-color: orange;} */
-
-
-
