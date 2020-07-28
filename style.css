@@ -81,11 +81,28 @@ li.nav {
   /* Styling for the <li class="nav"> element */
   float: right;
   font-size: 15px;
+  
+  
 }
 
 /* TODO (optional): Change the font color, decoration, and/or case */
 
 li.nav a {
+  /* Styling for the <a> elements in <li class="nav"> */
+  display: block;
+  color: #4e5b7e;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5em;
+  font-family: 'Assistant', sans-serif;
+  padding: 10px;
+}
+
+
+.heading-home a {
   /* Styling for the <a> elements in <li class="nav"> */
   display: block;
   color: #1e2539;
@@ -96,28 +113,17 @@ li.nav a {
   font-weight: bold;
 }
 
-/* TODO (optional): Change the background color and/or font color when the mouse hovers over an item */
-.heading-home a {
-  /* Styling for the <a> elements in <li class="nav"> */
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
 li.nav a:hover {
   /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
-  background-color: #0D38D3;
-  color: #43d6b9ff;
+ /* Styling for hover in nav bar*/
+  background-color: #1e2539;
+  color: white;
 }
 
 .heading-home a:hover {
   /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
-  background-color: #0D38D3;
-  color:#43d6b9ff;
+  background-color: #1e2539;
+  color: white;
 }
 
 /************************************************/
@@ -133,7 +139,7 @@ li.nav a:hover {
   align-items: center; /* Align the flex items to the center */
 
   /* Design properties */
-  background-color: #0D38D3;
+  background-color: #8897cc;
   padding: 5px;
 
   /* Positioning properties */
@@ -150,7 +156,7 @@ li.nav a:hover {
 .heading-home {
   padding: 2%;
   color: #43d6b9ff;
-  font-size: 50px;
+  font-size: 100px;
   letter-spacing: 10px;
   line-height: 60px;
   text-align: center;
