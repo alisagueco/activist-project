@@ -165,10 +165,10 @@ li.nav a:hover {
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
   /*border-style: dotted;*/
 }
-
+#43d6b9ff
 /* TODO: Review the CSS properties to the flex item for the intro text (the right box) */
 .intro-text {
-  background-color: #43d6b9ff; /* Add your own background color */
+  background-color: white; /* Add your own background color */
   padding: 4%;
   margin: 3%;
   color: #0D38D3; /* Add the color of your font */
