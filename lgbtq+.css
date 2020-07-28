@@ -114,6 +114,12 @@ li.nav a:hover {
   color:#43d6b9ff;
 }
 
+#L a:hover {
+  color: red;
+  
+}
+
+
 /************************************************/
 /*********** CSS FOR FLEXBOX HEADING ************/
 /************************************************/
@@ -185,6 +191,10 @@ li.nav a:hover {
   
 }
 
+#L,#G,#B,#T,#Q,#+ {
+  flex-direction : row; 
+  
+}
 
 
 /*---------IMAGE STYLING + PARALLAX PROPERTY---------*/
