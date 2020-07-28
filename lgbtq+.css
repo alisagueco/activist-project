@@ -25,53 +25,34 @@ html {
   box-sizing: border-box;
 }
 
-h1 {
-  letter-spacing: 5px;
-  font-size: 50px;
-  /*TODO: Change the font-family property to your linked font*/
-  font-family: "Roboto Mono", sans-serif;
-  color: #43d6b9ff;
-  text-align: center;
-}
-
-/*TODO: Change the font-family property to your linked font*/
-h2 {
-  letter-spacing: 3px;
-  font-size: 25px;
-  font-family: "Roboto Mono", sans-serif;
-  color: #43d6b9ff;
-  text-align: center;
-  line-height: 1.3em;
-}
-
 /*TODO: Change the color of a link when a person hovers over it*/
 p a {
   color: #43d6b9ff;
   text-decoration: none;
 }
 
-
 /************************************************/
 /*************** CSS for LGBTQ+ BUTTONS ****************/
 /************************************************/
 
 .buttoncontainer a:hover {
-  background-color: #0D38D3;
-  color: #43d6b9ff;
+  background-color: #1e2539;
+  color: white;
 }
 
 .button {
   align-self: baseline;
-  background-color: #1c87c9;
+  background-color: white;
   border: none;
-  color: white;
+  color: #060606;
   padding: 20px 34px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 20px;
+  font-size: 75px;
   margin: 4px 2px;
   cursor: pointer;
+  font-family: "Poiret One", cursive;
 }
 .buttoncontainer {
   align-self: baseline;
@@ -90,34 +71,8 @@ p a {
   justify-content: center; /* Justify the flex items to the center */
   align-items: center; /* Align the flex items to the center */
   /* Design properties */
-  background-color: #0D38D3;
+  background-color: white;
   padding: 5px;
-
-  /* Positioning properties */
-  position: absolute;
-  left: 20%;
-  right: 20%;
-  top: 40%; /* Change this value to move the box up or down */
-
-  /*Debugging Tip: Uncomment the line below to see the outline of the container*/
-  /*border-style: dotted;*/
-}
-
-
-
-/* TODO: Review the CSS properties to the flex item for the intro text (the right box) */
-.intro-text {
-  background-color: #43d6b9ff; /* Add your own background color */
-  padding: 4%;
-  margin: 3%;
-  color: #0D38D3; /* Add the color of your font */
-  font-size: 20px; /* Add your font size*/
-  letter-spacing: 2px; /* Adds space between letters */
-  line-height: 1.4em; /* Adds space between lines */
-  text-align: center;
-
-  /*Debugging Tip: Uncomment the line below to see the outline of the container*/
-  /*border-style: dotted;*/
 }
 
 /************************************************/
