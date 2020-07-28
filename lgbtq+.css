@@ -192,7 +192,7 @@ li.nav a:hover {
 /* TODO: Add the CSS selector for each image to the collective image rule set */
 
 .main-message,
-.image-one, .image-two {
+.image-one, .image-two, .image-3, .image-4, .image-5, .image-6 {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
