@@ -5,7 +5,12 @@ This CSS file is contains the CSS rule sets for
     - any universal elements that all pages use
 
 The CSS for the take-action.html is in take-action.css
-
+COLOR SCHEME THAT WERE USING
+.color1 {color: #060606;} black
+.color2 {color: #1e2539;}
+.color3 {color: #4e5b7e;}
+.color4 {color: #8897cc;}
+.color5 {color: #c1cde8;} light purple
 */
 
 /************************************************/
@@ -22,7 +27,7 @@ html {
   line-height: 1.5em; /* Change the line height size*/
   margin: 0em;
   color: white; /* Change the font color*/
-  background-color: #0D38D3; /* Change the background color */
+  background-color: #c1cde8; /* Change the background color#0D38D3 */
   box-sizing: border-box;
 }
 
@@ -40,14 +45,14 @@ h2 {
   letter-spacing: 3px;
   font-size: 25px;
   font-family: 'Assistant', sans-serif;
-  color: #43d6b9ff;
+  color: #c1cde8;
   text-align: center;
   line-height: 1.3em;
 }
 
 /*TODO: Change the color of a link when a person hovers over it*/
 p a {
-  color: #43d6b9ff;
+  color: #c1cde8;
   text-decoration: none;
 }
 
@@ -65,8 +70,8 @@ ul.nav-bar {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #43d6b9ff;
-  border-style: solid;
+  background-color: #43d6b9f;
+  border-style: clear;
   border-color: #0D38D3;
 }
 
@@ -83,7 +88,7 @@ li.nav {
 li.nav a {
   /* Styling for the <a> elements in <li class="nav"> */
   display: block;
-  color: #0D38D3;
+  color: #1e2539;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
