@@ -30,6 +30,13 @@ html {
   background-color: #c1cde8; /* Change the background color#0D38D3 */
   box-sizing: border-box;
 }
+p {
+  font-size: 1.5 em;
+  color: #060606;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+}
 /*Doesn't apply to home page, there's no h1 in the index.html!! */
 h1 {
   letter-spacing: 5px;
@@ -186,7 +193,7 @@ li.nav a:hover {
 /* TODO (optional): Change the background color and/or text alignment */
 
 .text-section {
-  background-color: ; /*#0D38D3*/
+  background-color: none; 
   padding: 20px 45px;
   margin: 35px;
   text-align: center;
