@@ -131,7 +131,7 @@ li.nav a:hover {
   flex-wrap: nowrap; /* Don’t wrap the flex items */
   justify-content: center; /* Justify the flex items to the center */
   align-items: center; /* Align the flex items to the center */
-
+flex-direction: column;
   /* Design properties */
   background-color: #0D38D3;
   padding: 5px;
@@ -154,6 +154,7 @@ li.nav a:hover {
   letter-spacing: 10px;
   line-height: 60px;
   text-align: center;
+
   
 
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
@@ -191,10 +192,7 @@ li.nav a:hover {
   
 }
 
-#L,#G,#B,#T,#Q,#+ {
-  flex-direction : row; 
-  
-}
+
 
 
 /*---------IMAGE STYLING + PARALLAX PROPERTY---------*/
