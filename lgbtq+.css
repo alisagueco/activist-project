@@ -180,20 +180,19 @@ li.nav a:hover {
 .text-section {
   background-color: #0D38D3;
   padding: 20px 45px;
-  margin: 20px;
+  margin: 35px;
   text-align: center;
-}
-
-.issue{
-  background-color: white;
   
 }
+
+
+
 /*---------IMAGE STYLING + PARALLAX PROPERTY---------*/
 
 /* TODO: Add the CSS selector for each image to the collective image rule set */
 
 .main-message,
-.image-one {
+.image-one, .image-two {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
