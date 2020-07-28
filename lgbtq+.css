@@ -24,7 +24,13 @@ html {
   background-color: #0D38D3; /* Change the background color */
   box-sizing: border-box;
 }
-
+p {
+  font-size: 1.5 em;
+  color: #8897cc;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+}
 /*TODO: Change the color of a link when a person hovers over it*/
 p a {
   color: #43d6b9ff;
