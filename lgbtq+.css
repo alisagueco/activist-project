@@ -318,4 +318,10 @@ li.nav a:hover {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 /*
 
-.dropdown:hover .dropbtn {background-color: orange;}
+.dropdown:hover .dropbtn {background-color: orange;} */
+
+#L {
+  color: white;
+display: inline-block;
+}
+
