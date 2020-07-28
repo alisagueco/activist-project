@@ -35,7 +35,7 @@ h1 {
   letter-spacing: 5px;
   font-size: 50px;
   /*TODO: Change the font-family property to your linked font*/
-  font-family: 'Assistant', sans-serif;
+    font-family: "Poiret One", cursive;
   color: #43d6b9ff;
   text-align: center;
 }
@@ -44,7 +44,7 @@ h1 {
 h2 {
   letter-spacing: 3px;
   font-size: 25px;
-  font-family: 'Assistant', sans-serif;
+    font-family: "Poiret One", cursive;
   color: #c1cde8;
   text-align: center;
   line-height: 1.3em;
@@ -266,7 +266,7 @@ li.nav a:hover {
 }
 
 /* IF THE SCREEN IS ~~1250 OR MORE~~ IMPLEMENT THESE RULES */
-@media screen and (min-width: 1250px) {
+/*@media screen and (min-width: 1250px) { */
   
   .flex-container-action {
     flex-wrap: nowrap;
