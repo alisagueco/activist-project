@@ -1,10 +1,7 @@
 /* 
 
 This CSS file is contains the CSS rule sets for 
-    - index.html
-    - any universal elements that all pages use
-
-The CSS for the take-action.html is in take-action.css
+    - lgbtq+.html
 
 */
 
@@ -45,24 +42,101 @@ p a {
   background-color: #1e2539;
   color: white;
 }
+.buttoncontainer {
+  align-self: baseline;
+  flex-direction: row;
+  margin: 0px;
+}
 
-.button {
+/* L button */
+.button1 {
   align-self: baseline;
   background-color: white;
   border: none;
   color: #060606;
-  padding: 20px 34px;
+  padding: 30px 34px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 75px;
-  margin: 4px 2px;
+  margin: 16px 2px;
   cursor: pointer;
   font-family: "Poiret One", cursive;
 }
-.buttoncontainer {
+/* G button */
+.button2 {
   align-self: baseline;
-  flex-direction: row;
+  background-color: white;
+  border: none;
+  color: #060606;
+  padding: 30px 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 75px;
+  margin: 16px 2px;
+  cursor: pointer;
+  font-family: "Poiret One", cursive;
+}
+/* B button */
+.button3 {
+  align-self: baseline;
+  background-color: white;
+  border: none;
+  color: #060606;
+  padding: 30px 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 75px;
+  margin: 16px 2px;
+  cursor: pointer;
+  font-family: "Poiret One", cursive;
+}
+/* T button */
+.button4 {
+  align-self: baseline;
+  background-color: white;
+  border: none;
+  color: #060606;
+  padding: 30px 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 75px;
+  margin: 16px 2px;
+  cursor: pointer;
+  font-family: "Poiret One", cursive;
+}
+/* Q button */
+.button5 {
+  align-self: baseline;
+  background-color: white;
+  border: none;
+  color: #060606;
+  padding: 30px 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 75px;
+  margin: 16px 2px;
+  cursor: pointer;
+  font-family: "Poiret One", cursive;
+}
+/* + button */
+.button6 {
+  align-self: baseline;
+  background-color: white;
+  border: none;
+  color: #060606;
+  padding: 30px 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 75px;
+  margin: 16px 2px;
+  cursor: pointer;
+  font-family: "Poiret One", cursive;
 }
 
 /************************************************/
