@@ -37,6 +37,7 @@ p1 {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: start;
+  align-content: space-around;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
@@ -51,9 +52,14 @@ p1 {
   font-size: 23px;
   flex-grow: 2;
   border-radius: 15px;
-  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
+   width: 100%;
+  padding: 35px;
+  justify-content: center;
+  background-color: white;
+  border-style: dotted; /*Uncomment to see the outline of the container*/
 }
 
+/* Headers in white boxes */
 #title,
 #title1,
 #title2,
@@ -64,12 +70,6 @@ p1 {
   color: #c1cde8;
 }
 
-.action-info-container {
-  width: 100%;
-  padding: 35px;
-  justify-content: center;
-  background-color: white;
-}
 
 a {
   color: #1e2539;
