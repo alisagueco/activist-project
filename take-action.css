@@ -49,7 +49,14 @@
 
 .action-info-container {
   width: 100%;
-  text-align: center;
+    left-padding: 35px;
+  margin: 5%;
+  justify-content: center;
+}
+
+a {
+  color: white;
+  
 }
 
 /* Right box under title; item in .flex-container */
@@ -58,7 +65,7 @@
   padding: 35px;
   margin: 5%;
   flex-grow: 1;
-  background-color: #0d9c90;
+  background-color: #c1cde8;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
@@ -69,7 +76,7 @@
   padding-top: 5px;
   padding-bottom: 15px;
   border-style: solid;
-  border-color: #43d6b9ff;
+  border-color: #ffffff;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
@@ -86,7 +93,7 @@
   font: 14px "Roboto", sans-serif;
   text-align: center;
   font-style: italic;
-  color: #0D38D3;
+  color: #c1cde8;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
@@ -116,7 +123,7 @@
 #my-list li::before {
   content: "";
   position: absolute;
-  border-color: #43d6b9ff;
+  border-color: #c1cde8;
   border-style: solid;
   border-width: 2px;
 
@@ -137,12 +144,12 @@ like a checkmark!
 /* Change background color when cursor hovers over list items */
 #my-list li:hover {
   background: #f3f3f3;
-  color: #0D38D3;
+  color: #c1cde8;
 }
 
 /* Change check square color when cursor hovers over */
 #my-list li:hover::before {
-  border-color: #0D38D3;
+  border-color: black;
   border-style: solid;
 }
 
@@ -155,7 +162,7 @@ like a checkmark!
 #my-list li.all-done::before {
   content: "";
   position: absolute;
-  border-color: #0D38D3;
+  border-color: #c1cde8;
   border-style: solid;
   border-width: 0 2px 2px 0;
   top: 5px;
