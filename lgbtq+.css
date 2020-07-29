@@ -183,7 +183,7 @@ p a {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #43d6b9ff;
+  background-color: white;
   background-size: cover;
   min-height: 100%; /* This adjusts the height of the image */
 
