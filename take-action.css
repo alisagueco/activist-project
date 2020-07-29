@@ -49,13 +49,18 @@
 
 .action-info-container {
   width: 100%;
-    left-padding: 35px;
-  margin: 5%;
+    padding: 35px;
+  margin-right: 5%;
+  margin-left: 0;
+  margin-top: 5%;
+  margin-bottom: 5%;
   justify-content: center;
+  background-color: white;
+  
 }
 
 a {
-  color: white;
+  color: #c1cde8;
   
 }
 
@@ -66,6 +71,7 @@ a {
   margin: 5%;
   flex-grow: 1;
   background-color: #c1cde8;
+  
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
