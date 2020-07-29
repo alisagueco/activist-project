@@ -80,6 +80,9 @@ ul.nav-bar {
   background-color: #43d6b9f;
   border-style: clear;
   border-color: #0D38D3;
+  /*position: fixed;
+  top: 0;
+  width: 100%; */
  
 }
 
@@ -120,15 +123,15 @@ li.nav a {
 }
 
 li.nav a:hover {
-  /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
+  
   /* Styling for hover in nav bar*/
   background-color: #1e2539;
   color: white;
 }
 
 .heading-home a:hover {
-  /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
-  background-color: #1e2539;
+  /* Styling for the hover on LGBTQ+ */
+  background-color: none;
   color: white;
 }
 
