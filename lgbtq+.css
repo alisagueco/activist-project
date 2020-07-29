@@ -18,7 +18,7 @@ html {
   line-height: 1.5em; /* Change the line height size*/
   margin: 0em;
   color: white; /* Change the font color*/
-  background-color: #0D38D3; /* Change the background color */
+  background-color: #c1cde8; /* Change the background color */
   box-sizing: border-box;
 }
 p {
@@ -183,7 +183,7 @@ p a {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: white;
+  background-color: #43d6b9ff;
   background-size: cover;
   min-height: 100%; /* This adjusts the height of the image */
 
