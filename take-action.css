@@ -8,7 +8,13 @@
   text-transform: uppercase;
   background-color: white;
 }
-
+p {
+  font-size: 1.5 em;
+  color: #4e5b7e;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+}
 /******************************************************/
 /***************** ACTION ITEM LIST *******************/
 /******************************************************/
@@ -44,29 +50,24 @@
   padding: 35px;
   font-size: 23px;
   flex-grow: 2;
-  border-radius:15px;
+  border-radius: 15px;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
-#title {
-   font: 14px "Roboto", sans-serif;
+#title,
+#title1,
+#title2 {
+  font: 14px "Roboto", sans-serif;
   text-align: center;
   font-style: italic;
   color: #c1cde8;
 }
 
-#title1 {
-   font: 14px "Roboto", sans-serif;
-  text-align: center;
-  font-style: italic;
-  color: #c1cde8;
-}
 .action-info-container {
   width: 100%;
-    padding: 35px;
+  padding: 35px;
   justify-content: center;
   background-color: white;
-  
 }
 
 a {
@@ -80,7 +81,7 @@ a {
   margin: 5%;
   flex-grow: 1;
   background-color: #c1cde8;
-  
+
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
@@ -216,8 +217,6 @@ like a checkmark!
 @media only screen and (min-width: 1000px) {
   .flex-container-action {
     flex-wrap: nowrap;
-   
-    
   }
 }
 
