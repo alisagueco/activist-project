@@ -80,13 +80,14 @@ ul.nav-bar {
   background-color: #43d6b9f;
   border-style: clear;
   border-color: #0D38D3;
-  
+ 
 }
 
 /* TODO (optional): Change the font size*/
 
 li.nav {
   /* Styling for the <li class="nav"> element */
+  display: inline;
   float: right;
   font-size: 15px;
 }
