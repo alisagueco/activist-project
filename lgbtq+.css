@@ -261,9 +261,9 @@ p a {
 
 .dropdown-content {
   display: none;
-  position: absolute;
-  background-color: black;
-  min-width: 160px;
+  position: center;
+  background-color: #1e2539;
+  min-width: 700px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
@@ -286,5 +286,5 @@ p a {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 
 .dropdown:hover .dropbtn {
-  background-color: orange;
+  background-color: #1e2539;
 }
