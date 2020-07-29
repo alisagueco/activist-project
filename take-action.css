@@ -8,7 +8,7 @@
   text-transform: uppercase;
   background-color: white;
 }
-p {
+p1 {
   font-size: 1.5 em;
   color: #4e5b7e;
   padding-top: 1em;
@@ -56,7 +56,8 @@ p {
 
 #title,
 #title1,
-#title2 {
+#title2,
+#title3 {
   font: 14px "Roboto", sans-serif;
   text-align: center;
   font-style: italic;
