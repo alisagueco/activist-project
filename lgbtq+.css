@@ -200,7 +200,7 @@ p a {
 /* TODO: Add a second background image. Make sure you add this class selector to the collective image rule set above */
 
 .image-two {
-  background-image: url("https://cdn.glitch.com/275f5c97-cf82-4414-99de-1010f1563e8d%2F9183570770_65cf2ef211_6k%5B1%5D.jpg?v=1595948785551");
+  background-image: url("https://cdn.glitch.com/275f5c97-cf82-4414-99de-1010f1563e8d%2FGay_pride_Istanbul_at_Taksim_Square%5B1%5D.jpg?v=1595948806206");
 }
 
 /* TODO: Add more background images by repeating the process above */
@@ -247,7 +247,7 @@ p a {
 /* Dropdown Button */
 
 .dropbtn {
-  background-color: black;
+  background-color: #c1cde8;
   color: white;
   padding: 16px;
   font-size: 16px;
