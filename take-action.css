@@ -55,6 +55,12 @@
   color: #c1cde8;
 }
 
+#title1 {
+   font: 14px "Roboto", sans-serif;
+  text-align: center;
+  font-style: italic;
+  color: #c1cde8;
+}
 .action-info-container {
   width: 100%;
     padding: 35px;
