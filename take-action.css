@@ -34,7 +34,7 @@ p1 {
   padding: 0.5em 0;
   align-items: center;
 
-  left: 10%;
+  left: 2%;
   right: 5%;
 
   margin: 5% 0;
@@ -76,7 +76,7 @@ p1 {
   margin: 5%;
   flex-grow: 1;
   background-color: #c1cde8;
-  margin-left: 60%;
+  margin-left: 50%;
   margin-top: 10%;
 
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
