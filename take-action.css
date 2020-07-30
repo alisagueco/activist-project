@@ -47,6 +47,7 @@ p1 {
   align-content: space-around;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
+/*Column flexbox container that keeps the boxes in a 
 
 /* Left box under title; item in .flex-container */
 .action-info-container {
@@ -78,7 +79,7 @@ p1 {
   color: #4e5b7e;
 }
 
-
+/* applies to links */
 a {
   color: #1e2539;
 }
