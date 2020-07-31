@@ -136,7 +136,12 @@ li.nav a:hover {
 }
 
 iframe {
-   justify-content: center;
+  padding-left:475px;
+  
+}
+
+#reference-text {
+  margin:15px;
   
 }
 /************************************************/
